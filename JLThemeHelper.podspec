@@ -78,8 +78,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/JJLewis/JLThemeHelper.git", :tag => "1.0" }
-
+  s.source       = { :git => "https://github.com/JJLewis/JLThemeHelper.git", :commit => "5a09dab18e5a2cc9a69a7d6a27032faf7814f595", :tag => "1.0" }
+  #s.source = { :path => "/Users/JordanLewis/GitHub/JLThemeHelper" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Theme/Theme.{h,swift}"
+  s.source_files  = "Theme/Theme.h"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
