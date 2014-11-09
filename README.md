@@ -29,4 +29,4 @@ Notices:
 You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
 No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
 
-The full license is available here: https://creativecommons.org/licenses/by-sa/3.0/au/legalcode
+The full license is available in the license document and here: https://creativecommons.org/licenses/by-sa/3.0/au/legalcode
