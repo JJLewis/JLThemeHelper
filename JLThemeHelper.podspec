@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "JLThemeHelper"
   s.version      = "1.0"
-  s.summary      = "A short description of JLThemeHelper."
+  s.summary      = "A Helper for having different color tones in your app."
 
   s.description  = <<-DESC
                    A longer description of JLThemeHelper in Markdown format.
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Theme", "Theme/**/*.{h,swift}"
+  s.source_files  = "Theme", "Theme/*.{h,swift}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
