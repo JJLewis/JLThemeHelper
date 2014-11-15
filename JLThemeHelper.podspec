@@ -16,16 +16,11 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JLThemeHelper"
-  s.version      = "1.0"
+  s.version      = "2.0"
   s.summary      = "A Helper for having different color tones in your app."
 
   s.description  = <<-DESC
-                   A longer description of JLThemeHelper in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+			This was written to make color theming super easy in apps by simply providing a main color, you get access to several shades of that color for use in the app.
                    DESC
 
   s.homepage     = "https://github.com/JJLewis/JLThemeHelper"
@@ -78,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/JJLewis/JLThemeHelper.git", :commit => "5a09dab18e5a2cc9a69a7d6a27032faf7814f595", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/JJLewis/JLThemeHelper.git", :tag => "2.0" }
   #s.source = { :path => "/Users/JordanLewis/GitHub/JLThemeHelper" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +84,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Theme/Theme.h"
+  s.source_files  = "Theme"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
