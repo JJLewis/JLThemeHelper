@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JLThemeHelper"
-  s.version      = "2.0"
+  s.version      = "2.1"
   s.summary      = "A Helper for having different color tones in your app."
 
   s.description  = <<-DESC
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/JJLewis/JLThemeHelper.git", :commit => "6cc99a8db535a0a65fb41fca22848b82a30cea22", :tag => "2.0" }
+  s.source       = { :git => "https://github.com/JJLewis/JLThemeHelper.git", :commit => "fd855fce498d2cdc614d094821b91196986f223d", :tag => "2.1" }
   #s.source = { :path => "/Users/JordanLewis/GitHub/JLThemeHelper" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
