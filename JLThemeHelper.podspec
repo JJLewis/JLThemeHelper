@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/JJLewis/JLThemeHelper.git", :tag => "2.0" }
+  s.source       = { :git => "https://github.com/JJLewis/JLThemeHelper.git", :commit => "6cc99a8db535a0a65fb41fca22848b82a30cea22", :tag => "2.0" }
   #s.source = { :path => "/Users/JordanLewis/GitHub/JLThemeHelper" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -123,7 +123,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
